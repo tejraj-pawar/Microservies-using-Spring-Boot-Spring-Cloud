@@ -1,9 +1,9 @@
 # Microservies-using-Spring-Cloud
 In this i have created a simple Microservices Architecture with features such as Client Side Load Balancing, Service Discovery, Distributed Error Tracing, Monitoring, Centralized Configuration, Distributed Messaging, Fault Tolerance using Spring Boot, Spring Cloud and Netflix's OSS components.
 
-Here, i have uploaded six Maven Projects, Three Microservices, Eureka Naming Server, Zuul API Gateway and Spring Cloud Config Server.
+# Here, i have uploaded six Maven Projects, Three Microservices, Eureka Naming Server, Zuul API Gateway and Spring Cloud Config Server.
 
-- Microservices:
+- # Microservices:
   - currency-conversion-service: It is a microservice which is dependent on currency-exchange-service microservice.
   - currency-exchange-service: It is another microservice on which above service is depends.
   - limit-service: It is a microservice whose configuration is stored on Spring Cloud Config Server.
