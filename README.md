@@ -5,7 +5,7 @@ In this i have created a simple Microservices Architecture with features such as
 
 - #### Microservices:
   - **currency-conversion-service:** It is a microservice which is dependent on currency-exchange-service microservice.
-  - **currency-exchange-service:** It is another microservice on which above service is depends.
+  - **currency-exchange-service:** It is another microservice on which above service depends.
   - **limit-service:** It is a microservice whose configuration is stored on Spring Cloud Config Server.
 
 - #### Service Registry:
